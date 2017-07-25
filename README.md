@@ -10,7 +10,7 @@ Our platform focus on the mobile native advertising, and we have:
 > **5.High accuracy of ad serving**<br/>
 
 ## Account
-Please contact with our AM for account registeration.
+Please contact with our AM for account.
 
 ## Terms
 #### 1.oid
