@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Koala Ad</string>
+    <string name="native_ad_txt">Native Ad Demo</string>
+    <string name="about_txt">About</string>
+    <string name="show_native_txt">Show Native Ad</string>
+    <string name="load_native_txt">Load Native Ad</string>
+    <string name="native_ad_desc">You can design your own ad placement with given title, description, icon, creative, etc.</string>
+</resources>
