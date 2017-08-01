@@ -30,6 +30,14 @@
             android:name="AD_AGENT_SECRET"
             android:value="ca00979da70d717059562f1e85ef06ee" />
 
+        <receiver android:name="com.kika.pluto.filter.KoalaAppInstallReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>

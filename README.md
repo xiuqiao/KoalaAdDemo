@@ -36,7 +36,7 @@ Our SDK need accees the network for ad requests, so you should make sure you hav
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 ```
 
-And you should put the APP_KEY and SECRET_KEY in AndroidManifest.xml as below:
+And you should put the APP_KEY and SECRET_KEY in `AndroidManifest.xml` as below:
 
 ```java
 <meta-data
@@ -45,6 +45,18 @@ And you should put the APP_KEY and SECRET_KEY in AndroidManifest.xml as below:
 <meta-data
     android:name="AD_AGENT_SECRET"
     android:value="{YOUR SECRET_KEY HERE}" />
+```
+
+For ad recommend, you should add `KoalaAppInstallReceiver` in `AndroidManifest.xml`:
+
+```java
+<receiver android:name="com.kika.pluto.filter.KoalaAppInstallReceiver" >
+    <intent-filter>
+        <action android:name="android.intent.action.PACKAGE_ADDED" />
+        <action android:name="android.intent.action.PACKAGE_REMOVED" />
+        <data android:scheme="package" />
+    </intent-filter>
+</receiver>
 ```
 
 ### 2.Initial SDK
