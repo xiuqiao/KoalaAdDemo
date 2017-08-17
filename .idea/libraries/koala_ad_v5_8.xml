@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="koala_ad_v5.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/koala_ad_v5.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

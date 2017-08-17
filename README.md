@@ -26,6 +26,7 @@ Like ad placement id on Facebook Audience Network, an oid always contains charac
 
 #### 2.app_key
 Identifier for your app on our Koala Ad Platform.
+
 ## SDK Usage
 ### 1.Preparation
 Our SDK need accees the network for ad requests, so you should make sure you have already add these permissions in `AndroidManifest.xml`:
@@ -131,6 +132,14 @@ KoalaADAgent.registerNativeAdView(mNativeAd, mAdView, new NativeAdListener.Nativ
 ### 5.Destroy Ad
 If you don't want to show an ad, you should unregister the ad view with `KoalaADAgent.unregisterNativeAdView(NativeAd nativeAd)`.<br/>
 And you should destroy the ad with `KoalaADAgent.destroyNativeAd(NativeAd nativeAd)` if you don't need it anymore.
+
+### 6.App Wall
+It's very easy for you to add app wall in your app, the only thing you have to do is start our app wall activity:`KoalaAppWallActivity`:
+```java
+intent = new Intent(MainActivity.this, KoalaAppWallActivity.class);
+startActivity(intent);
+```
+*NOTE*: Please make sure you have already finish the Step 1 and Step 2.
 
 ## More
 Learn more about our platform?  Please visit [Acekoala Platform](http://www.acekoala.com/).<br/>

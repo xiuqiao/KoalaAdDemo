@@ -2,13 +2,31 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/xinmeihutong/Documents/code/KoalaAdDemo/app/libs/koala_ad_v5.6.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/xinmeihutong/Documents/code/KoalaAdDemo/app/libs/koala_ad_v5.8.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2181cd5ac1b843edcca0b0c4dddee2dbe4160937">
-        <dex dex="/Users/xinmeihutong/Documents/code/KoalaAdDemo/app/build/intermediates/pre-dexed/debug/koala_ad_v5.6_b72874f29a5b9ffb876f7e2d0ba8c4fa8999116e.jar" />
+        sha1="a7263053d0c831e5f3277d9d25a91e35ebb8308e">
+        <dex dex="/Users/xinmeihutong/Documents/code/KoalaAdDemo/app/build/intermediates/transforms/dex/debug/folders/1000/2/koala_ad_v5.8_3987c185967ab8af4eda7e7988b36e8cf2e0e028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinmeihutong/Documents/code/KoalaAdDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/xinmeihutong/Documents/code/KoalaAdDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1967ab6969d9156033f37f9c3bf6655911554ade/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinmeihutong/Documents/code/KoalaAdDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f482ef780ef416fc7965fdaa2d5b3f4a1c4941eb">
+        <dex dex="/Users/xinmeihutong/Documents/code/KoalaAdDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cb9ecceafcb67ae34d693714fdbf571b8547f024/classes.dex" />
     </item>
 
 </items>

@@ -20,6 +20,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.kika.pluto.appwall.KoalaAppWallActivity"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+
         <activity android:name=".NativeAdActivity" />
         <activity android:name=".AboutActivity" />
 

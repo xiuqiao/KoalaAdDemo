@@ -24,13 +24,24 @@
         />
 
     <Button
+        android:id="@+id/appwall_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appwall_txt"
+        android:layout_below="@+id/native_ad_btn"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorBtnWhite"
+        android:textColor="@color/colorBtnTxt"
+        />
+
+    <Button
         android:id="@+id/about_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/about_txt"
         android:background="@color/colorBtnWhite"
         android:textColor="@color/colorBtnTxt"
-        android:layout_below="@+id/native_ad_btn"
+        android:layout_below="@+id/appwall_btn"
         android:layout_marginTop="8dp"
         />
 
