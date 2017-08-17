@@ -145,7 +145,6 @@ and declare it in `AndroidManifest.xml`:
 <activity android:name="com.kika.pluto.appwall.KoalaAppWallActivity"
             android:theme="@android:style/Theme.NoTitleBar"/>
 ```
-*NOTE*: Please make sure you have already finish the Step 1 and Step 2.
 
 ## More
 Learn more about our platform?  Please visit [Acekoala Platform](http://www.acekoala.com/).<br/>
