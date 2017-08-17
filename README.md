@@ -134,10 +134,16 @@ If you don't want to show an ad, you should unregister the ad view with `KoalaAD
 And you should destroy the ad with `KoalaADAgent.destroyNativeAd(NativeAd nativeAd)` if you don't need it anymore.
 
 ### 6.App Wall
+(*NOTE*: Please make sure you have already finish the Step 1 and Step 2.)<br/><br/>
 It's very easy for you to add app wall in your app, the only thing you have to do is start our app wall activity:`KoalaAppWallActivity`:
 ```java
 intent = new Intent(MainActivity.this, KoalaAppWallActivity.class);
 startActivity(intent);
+```
+and declare it in `AndroidManifest.xml`:
+```java
+<activity android:name="com.kika.pluto.appwall.KoalaAppWallActivity"
+            android:theme="@android:style/Theme.NoTitleBar"/>
 ```
 *NOTE*: Please make sure you have already finish the Step 1 and Step 2.
 
